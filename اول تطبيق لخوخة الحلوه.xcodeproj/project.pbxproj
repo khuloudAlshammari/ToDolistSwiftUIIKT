@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376240262754E2BA005E0890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376240252754E2BA005E0890 /* AppDelegate.swift */; };
+		376240282754E2BA005E0890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376240272754E2BA005E0890 /* SceneDelegate.swift */; };
+		3762402D2754E2BA005E0890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3762402B2754E2BA005E0890 /* Main.storyboard */; };
+		3762402F2754E2BB005E0890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3762402E2754E2BB005E0890 /* Assets.xcassets */; };
+		376240322754E2BB005E0890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376240302754E2BB005E0890 /* LaunchScreen.storyboard */; };
+		3762403A2754E56E005E0890 /* TodosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376240392754E56E005E0890 /* TodosVC.swift */; };
+		3762403C27551754005E0890 /* TodosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762403B27551754005E0890 /* TodosCell.swift */; };
+		3781450527583E5A001A2CBE /* NewTodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3781450427583E5A001A2CBE /* NewTodoVC.swift */; };
+		3797D1622756E254007F1370 /* TodoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797D1612756E254007F1370 /* TodoDetailsVC.swift */; };
+		37A01DEF275A6615004575D2 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A01DEE275A6614004575D2 /* Math.swift */; };
+		37A01E1B275A7C1C004575D2 /* TodoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37A01E19275A7C1C004575D2 /* TodoModel.xcdatamodeld */; };
+		37D8E1DD27565E61002FE9C1 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8E1DC27565E60002FE9C1 /* Todo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376240222754E2BA005E0890 /* اول تطبيق لخوخة الحلوه.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "اول تطبيق لخوخة الحلوه.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376240252754E2BA005E0890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		376240272754E2BA005E0890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3762402C2754E2BA005E0890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3762402E2754E2BB005E0890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		376240312754E2BB005E0890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		376240332754E2BB005E0890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376240392754E56E005E0890 /* TodosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosVC.swift; sourceTree = "<group>"; };
+		3762403B27551754005E0890 /* TodosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosCell.swift; sourceTree = "<group>"; };
+		3781450427583E5A001A2CBE /* NewTodoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoVC.swift; sourceTree = "<group>"; };
+		3797D1612756E254007F1370 /* TodoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailsVC.swift; sourceTree = "<group>"; };
+		37A01DEE275A6614004575D2 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		37A01E1A275A7C1C004575D2 /* TodoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoModel.xcdatamodel; sourceTree = "<group>"; };
+		37D8E1DC27565E60002FE9C1 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3762401F2754E2BA005E0890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376240192754E2BA005E0890 = {
+			isa = PBXGroup;
+			children = (
+				376240242754E2BA005E0890 /* اول تطبيق لخوخة الحلوه */,
+				376240232754E2BA005E0890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		376240232754E2BA005E0890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376240222754E2BA005E0890 /* اول تطبيق لخوخة الحلوه.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376240242754E2BA005E0890 /* اول تطبيق لخوخة الحلوه */ = {
+			isa = PBXGroup;
+			children = (
+				376240252754E2BA005E0890 /* AppDelegate.swift */,
+				37A01E19275A7C1C004575D2 /* TodoModel.xcdatamodeld */,
+				376240272754E2BA005E0890 /* SceneDelegate.swift */,
+				3762402B2754E2BA005E0890 /* Main.storyboard */,
+				3781450427583E5A001A2CBE /* NewTodoVC.swift */,
+				3797D1612756E254007F1370 /* TodoDetailsVC.swift */,
+				37D8E1DC27565E60002FE9C1 /* Todo.swift */,
+				3762403B27551754005E0890 /* TodosCell.swift */,
+				376240392754E56E005E0890 /* TodosVC.swift */,
+				37A01DEE275A6614004575D2 /* Math.swift */,
+				3762402E2754E2BB005E0890 /* Assets.xcassets */,
+				376240302754E2BB005E0890 /* LaunchScreen.storyboard */,
+				376240332754E2BB005E0890 /* Info.plist */,
+			);
+			path = "اول تطبيق لخوخة الحلوه";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376240212754E2BA005E0890 /* اول تطبيق لخوخة الحلوه */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376240362754E2BB005E0890 /* Build configuration list for PBXNativeTarget "اول تطبيق لخوخة الحلوه" */;
+			buildPhases = (
+				3762401E2754E2BA005E0890 /* Sources */,
+				3762401F2754E2BA005E0890 /* Frameworks */,
+				376240202754E2BA005E0890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "اول تطبيق لخوخة الحلوه";
+			productName = "اول تطبيق لخوخة الحلوه";
+			productReference = 376240222754E2BA005E0890 /* اول تطبيق لخوخة الحلوه.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3762401A2754E2BA005E0890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					376240212754E2BA005E0890 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3762401D2754E2BA005E0890 /* Build configuration list for PBXProject "اول تطبيق لخوخة الحلوه" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 376240192754E2BA005E0890;
+			productRefGroup = 376240232754E2BA005E0890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376240212754E2BA005E0890 /* اول تطبيق لخوخة الحلوه */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376240202754E2BA005E0890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376240322754E2BB005E0890 /* LaunchScreen.storyboard in Resources */,
+				3762402F2754E2BB005E0890 /* Assets.xcassets in Resources */,
+				3762402D2754E2BA005E0890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3762401E2754E2BA005E0890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D8E1DD27565E61002FE9C1 /* Todo.swift in Sources */,
+				3781450527583E5A001A2CBE /* NewTodoVC.swift in Sources */,
+				3797D1622756E254007F1370 /* TodoDetailsVC.swift in Sources */,
+				376240262754E2BA005E0890 /* AppDelegate.swift in Sources */,
+				3762403A2754E56E005E0890 /* TodosVC.swift in Sources */,
+				376240282754E2BA005E0890 /* SceneDelegate.swift in Sources */,
+				3762403C27551754005E0890 /* TodosCell.swift in Sources */,
+				37A01E1B275A7C1C004575D2 /* TodoModel.xcdatamodeld in Sources */,
+				37A01DEF275A6615004575D2 /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3762402B2754E2BA005E0890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3762402C2754E2BA005E0890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		376240302754E2BB005E0890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376240312754E2BB005E0890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		376240342754E2BB005E0890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		376240352754E2BB005E0890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		376240372754E2BB005E0890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "اول تطبيق لخوخة الحلوه/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuawiq.----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		376240382754E2BB005E0890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "اول تطبيق لخوخة الحلوه/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuawiq.----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3762401D2754E2BA005E0890 /* Build configuration list for PBXProject "اول تطبيق لخوخة الحلوه" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376240342754E2BB005E0890 /* Debug */,
+				376240352754E2BB005E0890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376240362754E2BB005E0890 /* Build configuration list for PBXNativeTarget "اول تطبيق لخوخة الحلوه" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376240372754E2BB005E0890 /* Debug */,
+				376240382754E2BB005E0890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37A01E19275A7C1C004575D2 /* TodoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37A01E1A275A7C1C004575D2 /* TodoModel.xcdatamodel */,
+			);
+			currentVersion = 37A01E1A275A7C1C004575D2 /* TodoModel.xcdatamodel */;
+			path = TodoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3762401A2754E2BA005E0890 /* Project object */;
+}
