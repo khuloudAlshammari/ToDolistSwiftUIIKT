@@ -8,10 +8,6 @@
 import UIKit
 import CoreData
 
-
-//
-
-
  @main class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -29,6 +25,8 @@ import CoreData
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
+     
+     
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
